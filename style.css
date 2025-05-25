@@ -44,7 +44,9 @@ nav li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav li a:hover {
-    text-decoration: underline;
+    font-size: 38px;
+    text-decoration: overline;
+    text-decoration-color: darkgrey;
 }
 
 /*perfil*/

@@ -43,7 +43,8 @@ nav li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav li a:hover {
-    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration-color: darkgrey;
 }
 #caja-de-informacion{
     background-color: grey;
