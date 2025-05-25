@@ -43,6 +43,7 @@ nav li a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav li a:hover {
+    font-size: 39px;
     text-decoration: overline;
     text-decoration-color: darkgrey;
 }
