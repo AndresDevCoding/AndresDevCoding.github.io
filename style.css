@@ -1,0 +1,100 @@
+body{
+    background-image: url(/assets/images/fondo/wallhaven-vpx8ep_1920x1080.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    margin: 30px;
+}
+main{
+    margin: 30px;
+}
+footer{
+    background-color: black;
+    margin: 0px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1px;
+}
+
+/*selector del header*/
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/*perfil*/
+#perfil{
+    margin: 90px;
+    display: flex;
+}
+#foto-de-perfil img{
+    width: 200px;
+    border-radius: 100px;
+}
+/*informacion*/
+#informacion{
+    margin-top: 50px;
+    margin: 30px;
+    font-size: large;
+}
+#informacion h2{
+    font-size: 20;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#informacion p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Apartado de sobre mi*/
+#sobre-mi-informacion{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(204, 204, 204);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* apartado de la caja de lenguajes y los iconos de la caja*/
+#sector-de-lenguajes{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+#sector-de-lenguajes img{
+    width: 100px;
+    margin: 0 20px;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
