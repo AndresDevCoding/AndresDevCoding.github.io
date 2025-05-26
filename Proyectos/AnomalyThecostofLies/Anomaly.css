@@ -40,8 +40,8 @@ nav li a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav li a:hover {
-    text-decoration: overline underline;
-    text-decoration-color: darkgrey;
+    text-decoration: overline;
+    text-decoration-color: white;
 }
 main img{
     width: 580px;
