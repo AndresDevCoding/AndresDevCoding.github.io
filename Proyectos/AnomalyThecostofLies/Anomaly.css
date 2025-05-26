@@ -3,6 +3,7 @@ body{
     padding: 10px;
     /*background-color: #222831;*/
     background-image: url(imagenes/fondo.png);
+    background-size: cover;
 }
 header{
     background-color: black;
