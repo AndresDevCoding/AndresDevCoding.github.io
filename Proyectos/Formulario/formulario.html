@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="imagenes/check-form_116472.png">
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <main>
+        <div id="caja">
+            <form action="formularios" method="post">
+                <ul>
+                    <li>
+                        <label for="Name">Name</label>
+                        <br>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="Correo">Correo</label>
+                        <br>
+                        <input type="email" id="mail" name="user_mail"/>
+                    </li>
+                    <li>
+                        <br>
+                        <label id="ult"for="msg">Mensaje</label>
+                        <br>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="button" onclick="register()">Envíe su mensaje</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Formulario by Andres</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
