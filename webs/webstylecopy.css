@@ -11,6 +11,7 @@ header{
 }
 main{
     margin: 100px;
+    display: flex;
 }
 footer{
     background-color: black;
@@ -65,4 +66,7 @@ p{
 div img{
     width: 500px;
     border-radius: 5px;
+}
+main div{
+    margin: 50px;
 }
