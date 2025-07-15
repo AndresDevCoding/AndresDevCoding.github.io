@@ -1,0 +1,20 @@
+body {
+    background: #111;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.miembro {
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+}

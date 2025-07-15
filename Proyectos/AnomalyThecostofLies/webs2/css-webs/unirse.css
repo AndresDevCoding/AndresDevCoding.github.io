@@ -1,0 +1,31 @@
+body {
+    background: #121212;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    text-align: center;
+}
+a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #555;
+}
