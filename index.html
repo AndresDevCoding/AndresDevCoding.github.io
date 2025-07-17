@@ -1,55 +1,62 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PortaFolio Web</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="shortcut icon" href="assets/images/iconoWeb/codificacion.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Andrés</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/images/iconoWeb/codificacion.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
     <header>
         <nav>
-            <li><a href="webs/Proyectos.html">Proyectos</a></li>
-            <li><a href="webs/contacto.html">Contacto</a></li>
+            <ul>
+                <li><a href="webs/Proyectos.html">Proyectos</a></li>
+                <li><a href="webs/contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
+
     <main>
-        <div id="perfil">
+        <section id="perfil">
             <div id="foto-de-perfil">
-                <img src="/assets/images/foto_de_perfil/b6ad95aea76bd24a5f756f961b33716e.jpg" alt="foto_de_perfil">
+                <img src="assets/images/foto_de_perfil/b6ad95aea76bd24a5f756f961b33716e.jpg" alt="Foto de perfil" />
             </div>
             <div id="informacion">
-                <h2>Andres</h2>
-                <p>
-                    País: Argentina <br> Edad: 18 <br> Ocupación: Estudiante
-                </p>
+                <h2>Andrés</h2>
+                <p>🇦🇷 Argentina<br>🧑‍🎓 18 años<br>📚 Estudiante</p>
             </div>
-        </div>
-        <h3>Sobre Mi</h3>
-        <div id="sobre-mi-informacion">
+        </section>
+
+        <section id="sobre-mi">
+            <h3>Sobre mí</h3>
             <p>
-                ¡Hola! Soy Andrés, estudiante técnico en informática enfocado en el desarrollo web. Me interesa tanto el Front-End como el Back-End, con una inclinación por el Front-End, donde disfruto crear interfaces claras, funcionales y atractivas.
+                ¡Hola! Soy Andrés, estudiante técnico en informática con enfoque en desarrollo web. Me especializo en Front-End, creando interfaces claras y funcionales.
             </p>
             <p>
-                Actualmente estoy adquiriendo experiencia en SQL, React y PHP, y sigo desarrollando mis habilidades en HTML, CSS y JavaScript. Me considero una persona comprometida con el aprendizaje constante y con muchas ganas de crecer en el sector tecnológico.
+                Estoy aprendiendo React, SQL y PHP, y perfeccionando HTML, CSS y JavaScript. Soy constante, autodidacta y entusiasta del crecimiento en el mundo tech.
             </p>
             <p>
-                Estoy buscando mi primera oportunidad profesional como desarrollador junior, donde pueda aplicar lo que sé, seguir aprendiendo y aportar valor a un equipo de trabajo.
+                Busco mi primera oportunidad profesional como desarrollador junior para aportar valor real y seguir aprendiendo.
             </p>
-        </div>
-        <h3>Mi conocimiento hasta el momento</h3>
-        <div id="sector-de-lenguajes">
-            <img src="assets/images/iconos_de_lenguajes/html.png" alt="html">
-            <img src="assets/images/iconos_de_lenguajes/css.png" alt="css">
-            <img src="assets/images/iconos_de_lenguajes/py.png" alt="py">
-            <img src="assets/images/iconos_de_lenguajes/js.png" alt="js">
-            <img src="assets/images/iconos_de_lenguajes/C++ (CPlusPlus).png" alt="c++">
-        </div>
+        </section>
+
+        <section id="lenguajes">
+            <h3>Mis conocimientos</h3>
+            <div class="iconos-lenguajes">
+                <img src="assets/images/iconos_de_lenguajes/html.png" alt="HTML" />
+                <img src="assets/images/iconos_de_lenguajes/css.png" alt="CSS" />
+                <img src="assets/images/iconos_de_lenguajes/js.png" alt="JavaScript" />
+                <img src="assets/images/iconos_de_lenguajes/py.png" alt="Python" />
+                <img src="assets/images/iconos_de_lenguajes/C++ (CPlusPlus).png" alt="C++" />
+            </div>
+        </section>
     </main>
+
     <footer>
-        <p>PortaFolio Web - Andres</p>
+        <p>&copy; 2025 Andrés - Portafolio Web</p>
     </footer>
 </body>
 </html>
