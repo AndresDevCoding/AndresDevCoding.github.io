@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    background: url("assets/images/fondo/wallhaven-gjye33_1366x768.png") no-repeat center center fixed;
+    background: url("assets/images/fondo/wallhaven-og3d99_1920x1080.png") no-repeat center center fixed;
     background-size: cover;
     color: #eee;
     line-height: 1.6;
@@ -140,8 +140,12 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(31, 30, 30, 0.932);
     font-size: 0.9rem;
     border-top: 1px solid #333;
-    margin-top: 44px;
+    margin-top: 114px;
 }
+
+
+
+
